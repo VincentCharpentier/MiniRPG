@@ -1,0 +1,29 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "",
+  "__note" : "PAR EXEMPLE 'index.js'",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vincent Charpentier",
+  "license": "ISC",
+  "devDependencies": {
+      "gulp": "latest",
+      "gulp-load-plugins": "latest",
+      "gulp-concat": "latest",
+      "gulp-replace": "latest",
+
+      "gulp-sass": "latest",
+      "gulp-csscomb": "latest",
+      "gulp-csso": "latest",
+      "gulp-autoprefixer": "latest",
+
+      "gulp-typescript": "latest",
+      "google-closure-compiler": "latest",
+
+      "gulp-jade": "latest",
+      "gulp-htmlmin" : "latest"
+  }
+}

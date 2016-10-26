@@ -1,0 +1,20 @@
+html
+    head
+        title Mini RPG
+        // META
+        meta(charset="UTF-8")
+        meta(name="author",content="Vincent Charpentier")
+        // STYLES
+        link(rel="stylesheet",type="text/css",href="css/main.css")
+        // PLUGINS
+        // -- StatsJS
+        script(type="text/javascript",src="plugins/stats.min.js")
+        // -- ThreeJS
+        script(type="text/javascript",src="plugins/three.min.js")
+        // SCRIPTS
+        script(type="text/javascript",src="js/app.js")
+        // BUILD INFO
+        script(type="text/javascript")
+            | console.info("BUILD DATE : {{current_time}}");
+    body
+        #stats

@@ -1,0 +1,109 @@
+$c-dark: #000;
+$c-lightdark: #333;
+$c-maincolor: hsl(185,75%,50%);
+
+body {
+    background: $c-dark;
+    color: #FFF;
+    margin: 0;
+    cursor: crosshair;
+}
+
+#stats {
+    // display: none;
+}
+
+::selection {
+  color: inherit;
+  background: default;
+}
+
+#build {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+
+    &.enabled {
+        display: flex;
+    }
+
+    &>div {
+        width: 40px;
+        height: 40px;
+        border: 4px solid rgba(0,0,0,.7);
+        border-radius: 5px;
+        margin: 5px;
+        position: relative;
+
+        &::before {
+            content: attr(title);
+            font-size: 0.8em;
+            background: rgba(0,0,0,.7);
+            padding: 2px;
+            position: absolute;
+            bottom: 25%;
+            left: -8px;
+            right: -8px;
+            text-align: center;
+        }
+
+        &.disabled::before {
+            background: rgba(255,0,0,.7);
+        }
+
+        &:hover .requirement {
+            opacity: 1;
+            display: flex;
+        }
+        .requirement {
+            transition: opacity .3s ease-in-out;
+            opacity: 0;
+            display: none;
+            position: absolute;
+            bottom: 100%;
+            margin-bottom: 5px;
+            background: rgba(0,0,0,.7);
+            flex-direction: column;
+            width: 100%;
+            padding: 2px;
+            box-sizing: border-box;
+            border-radius: 3px;
+
+            &>div {
+                display: flex;
+                align-items: center;
+
+                &>span {
+                    flex: 1;
+                    text-align: right;
+                }
+            }
+        }
+    }
+}
+
+#inventory {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: rgba(0,0,0,.6);
+    padding: 5px 5px 2px 2px;
+    border-radius: 0 0 0 5px;
+
+    .inventory_slot {
+        display: flex;
+        align-items: center;
+
+        img {
+            margin-right: 5px;
+        }
+
+        .counter {
+            flex: 1;
+            text-align: right;
+        }
+    }
+}
