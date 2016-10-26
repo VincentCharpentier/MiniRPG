@@ -1,0 +1,140 @@
+{
+	"metadata": {
+		"version": 4.4,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "F5082A01-6B3E-4406-BC14-BB53AF84BA28",
+			"type": "CylinderBufferGeometry",
+			"radiusTop": 0,
+			"radiusBottom": 0.51,
+			"height": 1,
+			"radialSegments": 10,
+			"heightSegments": 1,
+			"openEnded": false
+		},
+		{
+			"uuid": "A70FA3BD-36AF-4E77-846B-F2D30D91086A",
+			"type": "CylinderBufferGeometry",
+			"radiusTop": 0.5,
+			"radiusBottom": 0.5,
+			"height": 6,
+			"radialSegments": 10,
+			"heightSegments": 1,
+			"openEnded": false
+		}],
+	"materials": [
+		{
+			"uuid": "6EE79A66-0489-4D5D-B3DF-1FCD5112C8FC",
+			"type": "MeshLambertMaterial",
+			"color": 14666553,
+			"emissive": 0
+		},
+		{
+			"uuid": "33F2533F-DFD3-4A08-969A-14C205BDB36D",
+			"type": "MeshLambertMaterial",
+			"color": 9192192,
+			"emissive": 0
+		}],
+	"object": {
+		"uuid": "885FC232-1CF4-40E2-AEFD-577F94C9FA39",
+		"type": "Group",
+		"name": "Wall",
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+		"children": [
+			{
+				"uuid": "230CB0CD-1085-4564-AE14-B116A2515D7F",
+				"type": "Group",
+				"name": "Spike",
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-0.5,0,0,1],
+				"children": [
+					{
+						"uuid": "1F3F503D-2B44-40B1-BA15-D868A04E7796",
+						"type": "Mesh",
+						"name": "Cylinder 4",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,6.5,0,1],
+						"geometry": "F5082A01-6B3E-4406-BC14-BB53AF84BA28",
+						"material": "6EE79A66-0489-4D5D-B3DF-1FCD5112C8FC"
+					},
+					{
+						"uuid": "54E1F93D-DDE6-4A08-B90B-6F68B6AF9E27",
+						"type": "Mesh",
+						"name": "Cylinder 2",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,3,0,1],
+						"geometry": "A70FA3BD-36AF-4E77-846B-F2D30D91086A",
+						"material": "33F2533F-DFD3-4A08-969A-14C205BDB36D"
+					}]
+			},
+			{
+				"uuid": "C0E3A8E6-1BC8-4A10-9D6A-01DBA9AB3CC3",
+				"type": "Group",
+				"name": "Spike",
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0.5,0,0,1],
+				"children": [
+					{
+						"uuid": "3D4308D2-B57A-4A60-A525-22B1BD610614",
+						"type": "Mesh",
+						"name": "Cylinder 4",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,6.5,0,1],
+						"geometry": "F5082A01-6B3E-4406-BC14-BB53AF84BA28",
+						"material": "6EE79A66-0489-4D5D-B3DF-1FCD5112C8FC"
+					},
+					{
+						"uuid": "50EE4CB4-0DF8-4569-83C4-06ED8C07FF15",
+						"type": "Mesh",
+						"name": "Cylinder 2",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,3,0,1],
+						"geometry": "A70FA3BD-36AF-4E77-846B-F2D30D91086A",
+						"material": "33F2533F-DFD3-4A08-969A-14C205BDB36D"
+					}]
+			},
+			{
+				"uuid": "076C90F2-46C1-4E7A-9649-00E9B00365F4",
+				"type": "Group",
+				"name": "Spike",
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,1.5,0,0,1],
+				"children": [
+					{
+						"uuid": "52C2AAE1-0E17-45DD-9E7C-8ACFA9905D4D",
+						"type": "Mesh",
+						"name": "Cylinder 4",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,6.5,0,1],
+						"geometry": "F5082A01-6B3E-4406-BC14-BB53AF84BA28",
+						"material": "6EE79A66-0489-4D5D-B3DF-1FCD5112C8FC"
+					},
+					{
+						"uuid": "B650E4EA-5E32-49C2-A0E4-62951D22B729",
+						"type": "Mesh",
+						"name": "Cylinder 2",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,3,0,1],
+						"geometry": "A70FA3BD-36AF-4E77-846B-F2D30D91086A",
+						"material": "33F2533F-DFD3-4A08-969A-14C205BDB36D"
+					}]
+			},
+			{
+				"uuid": "BF3D93C5-176E-4E38-B388-419FAE073C3C",
+				"type": "Group",
+				"name": "Spike",
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,-1.5,0,0,1],
+				"children": [
+					{
+						"uuid": "95CD930D-B880-4328-B7C1-FC64AA18421D",
+						"type": "Mesh",
+						"name": "Cylinder 4",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,6.5,0,1],
+						"geometry": "F5082A01-6B3E-4406-BC14-BB53AF84BA28",
+						"material": "6EE79A66-0489-4D5D-B3DF-1FCD5112C8FC"
+					},
+					{
+						"uuid": "F7877F8F-85B5-41C7-933A-C623E285B0B3",
+						"type": "Mesh",
+						"name": "Cylinder 2",
+						"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,3,0,1],
+						"geometry": "A70FA3BD-36AF-4E77-846B-F2D30D91086A",
+						"material": "33F2533F-DFD3-4A08-969A-14C205BDB36D"
+					}]
+			}]
+	}
+}

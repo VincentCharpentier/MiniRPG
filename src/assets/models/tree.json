@@ -1,0 +1,65 @@
+{
+	"metadata": {
+		"version": 4.4,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "6CD0F961-7F77-44CB-8573-29B552A5C2CF",
+			"type": "CylinderBufferGeometry",
+			"radiusTop": 0.8,
+			"radiusBottom": 1,
+			"height": 8,
+			"radialSegments": 10,
+			"heightSegments": 1,
+			"openEnded": false
+		},
+		{
+			"uuid": "57A9B3D2-EE57-4D02-BC21-3CE45BD8E925",
+			"type": "SphereBufferGeometry",
+			"radius": 5,
+			"widthSegments": 7,
+			"heightSegments": 3,
+			"phiStart": 0,
+			"phiLength": 6.283185307179586,
+			"thetaStart": 0,
+			"thetaLength": 2.12
+		}],
+	"materials": [
+		{
+			"uuid": "33F2533F-DFD3-4A08-969A-14C205BDB36D",
+			"type": "MeshLambertMaterial",
+			"color": 9192192,
+			"emissive": 0
+		},
+		{
+			"uuid": "1116BAFC-D51A-40E7-97EC-2EB6A8E52EFF",
+			"type": "MeshLambertMaterial",
+			"color": 685569,
+			"emissive": 0
+		}],
+	"object": {
+		"uuid": "C2CC9D1D-A194-4167-B581-A05CF15ADF59",
+		"type": "Group",
+		"name": "Three",
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+		"children": [
+			{
+				"uuid": "AE33C052-DB75-4FAD-B086-9AB431ABCA9B",
+				"type": "Mesh",
+				"name": "Cylinder 1",
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,4,0,1],
+				"geometry": "6CD0F961-7F77-44CB-8573-29B552A5C2CF",
+				"material": "33F2533F-DFD3-4A08-969A-14C205BDB36D"
+			},
+			{
+				"uuid": "4EBDC95E-7994-44C8-BB24-172AFEBA006D",
+				"type": "Mesh",
+				"name": "Sphere 3",
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,9.088857650756836,0,1],
+				"geometry": "57A9B3D2-EE57-4D02-BC21-3CE45BD8E925",
+				"material": "1116BAFC-D51A-40E7-97EC-2EB6A8E52EFF"
+			}]
+	}
+}

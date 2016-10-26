@@ -1,0 +1,68 @@
+{
+	"metadata": {
+		"version": 4.4,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "C395DA55-5094-4BDF-AD27-846B05AB31A3",
+			"type": "SphereBufferGeometry",
+			"radius": 0.7,
+			"widthSegments": 32,
+			"heightSegments": 16,
+			"phiStart": 0,
+			"phiLength": 6.283185307179586,
+			"thetaStart": 0,
+			"thetaLength": 3.141592653589793
+		},
+		{
+			"uuid": "6FA9EE5F-355F-41FE-BB3C-F39DBC51688D",
+			"type": "SphereBufferGeometry",
+			"radius": 0.25,
+			"widthSegments": 5,
+			"heightSegments": 4,
+			"phiStart": 0,
+			"phiLength": 6.283185307179586,
+			"thetaStart": 0,
+			"thetaLength": 3.141592653589793
+		}],
+	"materials": [
+		{
+			"uuid": "E4CB84A3-1D7E-4443-A10E-CBB52B5551DA",
+			"type": "MeshLambertMaterial",
+			"color": 7074803,
+			"emissive": 1379522,
+			"opacity": 0.4,
+			"transparent": true
+		},
+		{
+			"uuid": "D0FAC64D-FD59-450D-9955-D182CE2B0826",
+			"type": "MeshLambertMaterial",
+			"color": 10592673,
+			"emissive": 0
+		}],
+	"object": {
+		"uuid": "E2A9D369-121F-4776-88FF-F37629628606",
+		"type": "Group",
+		"name": "rock_loot",
+		"matrix": [1.5,0,0,0,0,1.5,0,0,0,0,1.5,0,0,1,0,1],
+		"children": [
+			{
+				"uuid": "B2F2193A-7DA3-4764-87DD-3F649DCD68C0",
+				"type": "Mesh",
+				"name": "Sphere 5",
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+				"geometry": "C395DA55-5094-4BDF-AD27-846B05AB31A3",
+				"material": "E4CB84A3-1D7E-4443-A10E-CBB52B5551DA"
+			},
+			{
+				"uuid": "8A543C30-BFE9-45B1-809E-DD1E17845999",
+				"type": "Mesh",
+				"name": "Sphere 6",
+				"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+				"geometry": "6FA9EE5F-355F-41FE-BB3C-F39DBC51688D",
+				"material": "D0FAC64D-FD59-450D-9955-D182CE2B0826"
+			}]
+	}
+}
